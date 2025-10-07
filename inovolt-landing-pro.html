@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovolt Energia Solar - Troque sua conta de energia pela parcela do seu Sistema Solar</title>
+    <meta name="description" content="O financiamento tem fim, a economia é para sempre! Simule gratuitamente seu sistema de energia solar com a Inovolt.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="inovolt-styles-pro.css">
+</head>
+<body>
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="company-info">
+                        <h4>Inovolt Energia Solar - São José do Rio Preto</h4>
+                    </div>
+                    <h1 class="hero-headline">
+                        Troque sua conta de energia pela parcela do seu Sistema Solar
+                    </h1>
+                    <p class="hero-subtitle">
+                        O financiamento tem fim, a economia é para sempre!
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSimulation()">
+                            <i class="fas fa-calculator"></i>
+                            Quero minha simulação gratuita
+                        </button>
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                            Falar no Whatsapp
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Casa moderna com painéis solares" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparativo Visual -->
+    <section id="comparison" class="comparison-section">
+        <div class="container">
+            <div class="comparison-grid">
+                <div class="comparison-item comparison-problem">
+                    <div class="comparison-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <h3>Conta de energia</h3>
+                    <div class="comparison-status negative">❌ nunca acaba</div>
+                    <ul class="comparison-list">
+                        <li>“Aluguel” infinito</li>
+                        <li>Inflação energética</li>
+                        <li>Bandeiras tarifárias</li>
+                        <li>Impacto ambiental maior</li>
+                    </ul>
+                </div>
+                <div class="comparison-item comparison-solution">
+                    <div class="comparison-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Financiamento Solar</h3>
+                    <div class="comparison-status positive">✔ tem prazo para acabar</div>
+                    <ul class="comparison-list">
+                        <li>Carência de até 120 dias</li>
+                        <li>Economia imediata na conta</li>
+                        <li>Sistema de amortização</li>
+                        <li>Investimento 100% seguro</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social -->
+    <section id="social-proof" class="social-proof-section">
+        <div class="container">
+            <h2 class="section-title">Mais de 350 famílias já economizam com a Inovolt</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="350">0</div>
+                    <div class="stat-plus">+</div>
+                    <div class="stat-label">Sistemas Instalados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-unit">anos</div>
+                    <div class="stat-label">Garantia nos painéis</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="95">0</div>
+                    <div class="stat-unit">%</div>
+                    <div class="stat-label">Clientes satisfeitos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-prefix">R$</div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-unit">Milhões</div>
+                    <div class="stat-label">Economizados pelos clientes</div>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Nós do grupo TRR Via Diesel, buscamos crescimento com sustentabilidade e a Inovolt Energia Solar veio de encontro a isso, nos ofereceu um serviço de qualidade na nossa rede de postos, dando suporte e trazendo economia. Estamos satisfeitos com essa parceria!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>TRR Via Diesel - Fernando</h4>
+                            <span>Comercial - São José do Rio Preto</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Estou muito satisfeita com os resultados da instalação do sistema fotovoltaico e pelo atendimento efetuado pela Inovolt Energia Solar!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Bar do Maranhão - Aparecida</h4>
+                            <span>Comercial - São José do Rio Preto</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"A Inovolt Energia Solar realizou a instalação do nosso sistema e o resultado superou as expectativas. Agora, geramos nossa própria energia limpa e já sentimos a economia na conta de energia. Recomendo a todos que buscam eficiência e confiança."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Technocel - Guilherme C.</h4>
+                            <span>Comercial - São José do Rio Preto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Simulação -->
+    <section id="simulation" class="simulation-section">
+        <div class="container">
+            <div class="simulation-content">
+                <div class="simulation-info">
+                    <h2>Calcule sua economia agora</h2>
+                    <p>Preencha os dados e receba uma simulação personalizada do seu sistema de energia solar.</p>
+                    <div class="simulation-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-check"></i>
+                            <span>Simulação 100% gratuita</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check"></i>
+                            <span>Resultado em menos de 24h</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check"></i>
+                            <span>Sem compromisso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="simulation-form-container">
+                    <form id="simulationForm" class="simulation-form">
+                        <h3>Solicite sua simulação</h3>
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone/Whatsapp</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Cidade</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bill">Qual o valor aproximado da sua conta de energia?</label>
+                                <select id="bill" name="bill" required>
+                                <option value="" disabled selected>Selecione uma faixa de valor</option>
+                                <option value="300">Até R$ 300</option>
+                                <option value="400">Entre R$ 301 e R$ 400</option>
+                                <option value="500">Entre R$ 401 e R$ 500</option>
+                                <option value="700">Entre R$ 501 e R$ 700</option>
+                                <option value="1000">Entre R$ 701 e R$ 1.000</option>
+                                <option value="1500">Acima de R$ 1.000</option>
+                            </select>
+                    </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-calculator"></i>
+                            Calcular minha economia
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explicação do Financiamento -->
+    <section id="financing" class="financing-section">
+        <div class="container">
+            <h2 class="section-title">Como funciona o Financiamento Solar?</h2>
+            <p class="section-subtitle">Troque o valor da sua conta de energia pela parcela do sistema solar. Simples assim.</p>
+            
+            <div class="financing-steps">
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Prazo definido</h3>
+                    <p>Financiamento de 12 a 84 meses com parcelas fixas. Depois desse período, economia e dinheiro no bolso.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Economia imediata</h3>
+                    <p>Desde o primeiro mês você já economiza na conta de energia, mesmo pagando o financiamento.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investimento inteligente</h3>
+                    <p>Seu imóvel se valoriza e você se protege contra os aumentos constantes da energia elétrica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Final de Urgência -->
+    <section id="urgency" class="urgency-section">
+        <div class="container">
+            <div class="urgency-content">
+                <h2 class="urgency-headline">
+                    Comece a economizar já na próxima conta de luz!
+                </h2>
+                <p class="urgency-subtitle">
+                    Não perca mais tempo pagando caro pela energia elétrica. 
+                    Faça sua simulação gratuita agora e descubra quanto você pode economizar.
+                </p>
+                <div class="urgency-buttons">
+                    <button class="btn btn-primary btn-large" onclick="scrollToSimulation()">
+                        <i class="fas fa-calculator"></i>
+                        Quero minha simulação gratuita
+                    </button>
+                </div>
+                <div class="urgency-guarantee">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Garantia de 30 anos nos painéis solares</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Inovolt Energia Solar</h3>
+                    <p>Transformando energia solar em economia real para sua família e empresa.</p>
+                    <p class="footer-location">São José do Rio Preto - SP</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (17) 99105-6878</p>
+                    <p><i class="fas fa-envelope"></i> inovolt@inovoltenergiasolar.com.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> São José do Rio Preto, SP</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/inovoltenergiasolar?locale=pt_BR" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/inovolt_energiasolar/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:inovolt@inovoltenergiasolar.com.br" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/5517991056878" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inovolt Energia Solar. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="inovolt-script-pro.js"></script>
+</body>
+</html>
